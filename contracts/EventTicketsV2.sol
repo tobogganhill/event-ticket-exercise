@@ -4,7 +4,7 @@ pragma solidity ^0.5.0;
 // The EventTicketsV2 contract keeps track of the details and ticket sales of multiple events.
 
 contract EventTicketsV2 {
-	// Define an public owner variable. Set it to the creator of the contract when it is initialized.
+	// Define a public owner variable. Set it to the creator of the contract when it is initialized.
 
 	address payable public owner;
 	uint256 PRICE_TICKET = 100 wei;
