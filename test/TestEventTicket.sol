@@ -1,12 +1,9 @@
 pragma solidity ^0.5.0;
 
-import "truffle/Assert.sol";
-import "truffle/DeployedAddresses.sol";
-import "../contracts/EventTickets.sol";
-import "../contracts/EventTicketsV2.sol";
+import 'truffle/Assert.sol';
+import 'truffle/DeployedAddresses.sol';
 
-contract TestEventTicket {
+import '../contracts/EventTicketsV2.sol';
 
 
-
-}
+contract TestEventTicket {}
